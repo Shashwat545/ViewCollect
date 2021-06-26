@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">VIEW Collect</string>
+    <string name="survey1">Survey 1</string>
+    <string name="survey2">Survey 2</string>
+    <string name="previous">Previous</string>
+    <string name="next">Submit</string>
+
+    <string name="survey1q1">The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. </string>
+    <string name="survey1q1o1">Option 1 of Survey 1 Question 1 goes here.</string>
+    <string name="survey1q1o2">Option 2 of Survey 1 Question 1 goes here.</string>
+    <string name="survey1q1o3">Option 3 of Survey 1 Question 1 goes here.</string>
+    <string name="survey1q1o4">Option 4 of Survey 1 Question 1 goes here.</string>
+
+    <string name="survey1q2">The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. </string>
+    <string name="survey1q2o1">Option 1 of Survey 1 Question 2 goes here.</string>
+    <string name="survey1q2o2">Option 2 of Survey 1 Question 2 goes here.</string>
+    <string name="survey1q2o3">Option 3 of Survey 1 Question 2 goes here.</string>
+    <string name="survey1q2o4">Option 4 of Survey 1 Question 2 goes here.</string>
+
+    <string name="survey2q1">The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. </string>
+    <string name="survey2q1o1">Option 1 of Survey 2 Question 1 goes here.</string>
+    <string name="survey2q1o2">Option 2 of Survey 2 Question 1 goes here.</string>
+    <string name="survey2q1o3">Option 3 of Survey 2 Question 1 goes here.</string>
+    <string name="survey2q1o4">Option 4 of Survey 2 Question 1 goes here.</string>
+
+    <string name="survey2q2">The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. The question will go here. </string>
+    <string name="survey2q2o1">Option 1 of Survey 2 Question 2 goes here.</string>
+    <string name="survey2q2o2">Option 2 of Survey 2 Question 2 goes here.</string>
+    <string name="survey2q2o3">Option 3 of Survey 2 Question 2 goes here.</string>
+    <string name="survey2q2o4">Option 4 of Survey 2 Question 2 goes here.</string>
+
+
+    <string name="login_form_title">Login</string>
+    <string name="login_form_username">Username</string>
+    <string name="login_form_password">Password</string>
+    <string name="login_form_login">LOGIN</string>
+</resources>

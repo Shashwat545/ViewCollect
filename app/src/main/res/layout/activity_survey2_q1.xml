@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Survey2_q1">
+
+    <FrameLayout
+        android:id="@+id/survey2f1q"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_survey"
+        app:layout_constraintBottom_toTopOf="@+id/survey2f1o1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/survey2q1"
+            android:textColor="@color/colorTextSurvey"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/survey2f1o1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_survey"
+        app:layout_constraintBottom_toTopOf="@+id/survey2f1o2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/survey2f1q">
+
+        <CheckBox
+            android:id="@+id/checkBoxSurvey2Q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/survey2q1o1"
+            android:textColor="@color/colorTextSurvey"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="20dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/survey2f1o2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_survey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/survey2f1o1">
+
+        <CheckBox
+            android:id="@+id/checkBoxSurvey2Q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/survey2q1o2"
+            android:textColor="@color/colorTextSurvey"
+            android:textSize="20dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/survey2f1o3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_survey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/survey2f1o2">
+
+        <CheckBox
+            android:id="@+id/checkBoxSurvey2Q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/survey2q1o3"
+            android:textColor="@color/colorTextSurvey"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="20dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/survey2f1o4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_survey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/survey2f1o3">
+
+        <CheckBox
+            android:id="@+id/checkBoxSurvey2Q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/survey2q1o4"
+            android:textColor="@color/colorTextSurvey"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="20dp" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/survey2b1n"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/next"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
